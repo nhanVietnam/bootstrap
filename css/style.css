@@ -60,6 +60,10 @@
     left: 0;
 }
 
+.fixhvdropdown {
+    width: 100%;
+}
+
 .iconfix {
     width: 15px;
     height: 15px;
