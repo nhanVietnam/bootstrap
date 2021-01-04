@@ -182,3 +182,38 @@
   top: 0;
   left: 30px;
 }
+
+.fixsearch {
+  min-width: 270px;
+}
+
+.rad {
+  border-radius: 3px;
+}
+
+.ati {
+  border: 3px solid black;
+}
+
+#men,
+#women {
+  display: none;
+}
+
+#all,
+#men,
+#women {
+  -webkit-animation: slide 0.5s ease-out;
+  -moz-animation: slide 0.5s ease-out;
+  -webkit-animation: slide 0.5s ease-in;
+  -moz-animation: slide 0.5s ease-in;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
