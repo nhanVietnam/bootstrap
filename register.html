@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Style Shop | Đăng nhập</title>
+    <title>Your Style Shop | Đăng ký</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -13,11 +13,11 @@
   <body class="bgimg">
     <div class="container-fluid position-fixed lg-form p-0 d-flex">
       <div class="lg-overlay position-absolute w-100 h-100"></div>
-      <div class="lg-body m-auto">
+      <div class="lg-body1 m-auto">
         <div class="p-3">
             <a href="index.html" class="text-white">Quay trở lại <span class="text-primary">Trang chủ</span></a>
         </div>
-        <h3 class="text-white position-relative text-center mt-3">Chào bạn</h3>
+        <h3 class="text-white position-relative text-center mt-3">Đăng ký</h3>
         <div class="d-flex flex-column px-5 mt-5">
           <input
             type="text"
@@ -27,21 +27,40 @@
             class="input-bg p-2 mb-4"
           />
           <input
+            type="email"
+            required
+            name=""
+            placeholder="Email"
+            class="input-bg p-2 mb-4"
+          />
+          <input
             type="password"
             required
             name=""
             placeholder="Mật khẩu"
             class="input-bg p-2 mb-4"
           />
+          <input
+            type="password"
+            required
+            name=""
+            placeholder="Nhập lại mật khẩu"
+            class="input-bg p-2 mb-4"
+          />
         </div>
         <div class="px-5">
-            <button type="button" class="btn btn-primary btn-lg btn-block w-100 h-100 shad"><a href="index.html" class="text-decoration-none text-white">Đăng nhập</a></button>
+            <button type="button" class="btn btn-primary btn-lg btn-block w-100 h-100 shad"><a href="index.html" class="text-decoration-none text-white">Đăng ký</a></button>
         </div>
-        <p class="text-center text-white pt-4">Chưa có tài khoản? <a href="register.html">Tạo ngay</a></p>
+        <div class="social text-center h5 text-white mt-3">
+          <p>Đăng ký tài khoản với:</p>
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="d-flex align-items-center justify-content-center social-fb social-box mr-4 shad"><i class="fab fa-facebook mr-1"></i> Facebook</div>
+            <div class="social-gg social-box d-flex align-items-center justify-content-center text-dark ml-4 shad"><i class="fab fa-google text-primary mr-1"></i>Google</div>
+          </div>
+        </div>
       </div>
       </div>
     </div>
-
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

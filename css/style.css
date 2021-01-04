@@ -161,6 +161,14 @@
   z-index: 2;
 }
 
+.lg-body1 {
+  width: 500px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.13);
+  border-radius: 2px;
+  z-index: 2;
+}
+
 ::placeholder {
   color: #333;
 }
@@ -203,17 +211,44 @@
 #all,
 #men,
 #women {
-  -webkit-animation: slide 0.5s ease-out;
+  animation: slide 0.5s ease-out;
   -moz-animation: slide 0.5s ease-out;
   -webkit-animation: slide 0.5s ease-in;
   -moz-animation: slide 0.5s ease-in;
 }
 
-@-webkit-keyframes slide {
+@keyframes slide {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
   }
+}
+
+.map {
+  width: 100%;
+  /* background-image: url(../img/banner.png); */
+  height: 400px;
+}
+
+.shad {
+  display: block;
+}
+
+.shad:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.social-box {
+  width: 160px;
+  height: 50px;
+}
+
+.social-fb {
+  background-color: #3b5998;
+}
+
+.social-gg {
+  background-color: #fff;
 }
